@@ -9,6 +9,10 @@ public class Selfie {
     String label;
     Bitmap image;
 
+    public Selfie(String label) {
+        this.label = label;
+    }
+
     public String getLabel() {
         return label;
     }
