@@ -94,6 +94,7 @@ public class MyActivity extends Activity {
             if (resultCode == RESULT_OK) {
                 Toast.makeText(this, "Image saved to:\n" +
                         data.getData(), Toast.LENGTH_LONG).show();
+
             } else if (resultCode == RESULT_CANCELED) {
             } else {
             }
